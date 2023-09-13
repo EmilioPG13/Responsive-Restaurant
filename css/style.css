@@ -455,7 +455,31 @@ header .navbar a:hover {
     background:var(--red);
 }
 
+.footer {
+    background: #000;
+    text-align: center;
+}
 
+section{
+    padding: 3rem 2rem;
+}
+
+.footer .share {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .credit {
+    padding: 2.5rem 1rem;
+    color: #fff;
+    font-weight: normal;
+}
+
+.footer .credit span {
+    color: var(--red);
+}
 
 
 
